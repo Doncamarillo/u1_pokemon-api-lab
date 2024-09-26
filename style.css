@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(255, 0, 0), white);
+
+
+}
+
+#btn {
+    border-radius: 20px;
+    color: red;
+    background-color: black;
+    height:30px;
+}
+
+#PokeDex {
+    font-family: "lato", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    
+}
+
+.pokemonPictures {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.pokeLogo {
+    width: 25px;
+    height: 25px;
+    display: flex;
+}
+
+#pokeName {
+    margin-top: 10px;
+    font-size: 43px;
+    color: black;
+    padding-left: 20px;
+}
+
+#pokeType {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    padding-left: 30px;
+    padding-top: -30px;
+}
+
+#searchBar {
+    border-radius: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 30px;
+    width:300px;
+    font-size: 20px;
+
+}

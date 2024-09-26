@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>PokeDex</title>
+
+    <audio id="whosThatPokemon" src="whosThatPokemon.mp3"></audio>
+
+    <h1 id="PokeDex">PokeDex</h1>
+</head>
+
+<body>
+    <header>
+        <input id="searchBar" type="text" placeholder="Who's that Pokemon?!" />
+        <button id="btn">Search!</button>
+
+
+
+    </header>
+    <div class="pokemonPictures"></div>
+    <img id="imgContainer" />
+    <img id="imgContainer2" />
+    <img id="imgContainer3" />
+    <img id="imgContainer4" />
+    <div class="pokemonDetails">
+        <h2 id="pokeName"></h2>
+        <h3 id=pokeType> </h3>
+    </div>
+</body>
+
+</html>
